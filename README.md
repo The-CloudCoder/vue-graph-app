@@ -1,5 +1,26 @@
-# Vue 3 + Vite
+# ROS2 Course Graph Visualization
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This application visualizes a network (graph) of ROS2 courses, modules, and their relationships. It uses **Vue 3**, **D3.js**, and **Vite** for a fast, modern development experience.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Prerequisites
+
+- **Node.js and npm:**  
+  Ensure you have a recent version of Node.js installed. You can check by running:
+  ```bash
+  node -v
+  npm -v
+
+## How to Run the application
+
+```bash
+git clone https://github.com/The-CloudCoder/vue-graph-app.git
+cd vue-graph-app
+npm install
+npm run dev
+```
+
+By default, Vite will start the app on http://localhost:5173/.
+Open this URL in your browser to view the graph.
+
+
+
